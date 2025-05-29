@@ -10,6 +10,7 @@ public class Script2_Test extends BaseClass
 	@Test(groups = "contacts")
 	public void script2() throws EncryptedDocumentException, IOException, InterruptedException {
 		ContactsPage cp = new ContactsPage(driver);
+
 		cp.getContactslink().click();
 		cp.getCreateContactlink().click();
 		int ranNo = ja.getRandomNumber();
