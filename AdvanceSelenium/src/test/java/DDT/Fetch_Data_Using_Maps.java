@@ -23,6 +23,7 @@ public static void main(String[] args) throws EncryptedDocumentException, IOExce
 		String key =sheet.getRow(i).getCell(0).toString();
 		String value= sheet.getRow(i).getCell(1).toString();
 		map.put(key, value);
+		System.out.println("Executed");
 		
 	}
 	
